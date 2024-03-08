@@ -9,7 +9,7 @@ const log = logger({
         }
     },
     base: {
-        pid:false
+        pid: false
     },
     timestamp: () => `, "time":"${dayjs().format()}"`
 })
