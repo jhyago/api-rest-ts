@@ -14,3 +14,5 @@ const validate = (schema: AnyZodObject) => (req: Request, res: Response, next: N
 }
 
 export default validate
+
+//TEST
